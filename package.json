@@ -1,0 +1,16 @@
+{
+  "name": "BeginND",
+  "description": "> JS Runtime Enviroment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "dev": "node ./src/index.js"
+  }
+}
