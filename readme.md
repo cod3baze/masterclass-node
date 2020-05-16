@@ -53,6 +53,8 @@ orquestra os direitórios da aplicação
 
   - [x] `path.dirname(path)` retorna o diretório root da aplicação
 
+  - [x] `path.extname(path)`: retorna a extensão do arquivo (**path**)
+
 ---
 
 ## OS
@@ -93,3 +95,5 @@ orquestra os direitórios da aplicação
 - Métodos
 
   - [x] `fs.appendFile(file, data, callback(err))`: abri o arquivo e add os **dados**, chama a **callback** passando o estatus: erro | ok
+
+  - [x] `fs.readFile(path, callback(err, content))` lê o conetúdo do _arquivo_, se não ouver erro passa como buffer no **content**
